@@ -184,6 +184,7 @@
       "createdAt": "2025-11-01T13:28:48.232Z"
     }
   ],
-  "savedAt": "2025-11-01T23:03:06.829Z",
-  "app": "Course Tracker"
+  "savedAt": "2025-11-01T23:07:50.272Z",
+  "app": "Course Tracker",
+  "version": "2.0.0"
 }
