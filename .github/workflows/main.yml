@@ -17,12 +17,12 @@ jobs:
         run: |
           echo "🧹 Starting cleanup..."
           ls -t backup_*.json | tail -n +6 | xargs rm -f || true
-          echo "✅ Cleanup done."
+          echo "✅ Cleanup done. Only 5 newest backups kept."
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add -u
-          git commit -m "Auto cleanup: deleted old backups (kept 10 newest)" || echo "Nothing to commit"
+          git commit -m "Auto cleanup: deleted old backups (kept 5 newest)" || echo "Nothing to commit"
           git push
