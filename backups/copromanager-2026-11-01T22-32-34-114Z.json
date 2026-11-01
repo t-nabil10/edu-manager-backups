@@ -1,0 +1,118 @@
+{
+  "buildingInfo": {
+    "name": "Résidence Al Andalous",
+    "address": "12 Rue des Palmiers, Casablanca",
+    "syndic": "Syndic Benali"
+  },
+  "financialSettings": {
+    "defaultFee": 500,
+    "dueDay": 5,
+    "currency": "MAD",
+    "autoGenerate": true,
+    "notifications": true
+  },
+  "expenseTypes": [
+    {
+      "name": "Électricité",
+      "active": true
+    },
+    {
+      "name": "Nettoyage",
+      "active": true
+    },
+    {
+      "name": "Entretien",
+      "active": true
+    },
+    {
+      "name": "Divers",
+      "active": true
+    }
+  ],
+  "owners": [
+    {
+      "id": "o1",
+      "name": "Ahmed Alaoui",
+      "apartment": "A1",
+      "phone": "0600000001",
+      "fee": 500
+    },
+    {
+      "id": "o2",
+      "name": "Fatima Zahra",
+      "apartment": "A2",
+      "phone": "0600000002",
+      "fee": 500
+    },
+    {
+      "id": "o3",
+      "name": "Youssef Idrissi",
+      "apartment": "B1",
+      "phone": "0600000003",
+      "fee": 600
+    }
+  ],
+  "contributions": [
+    {
+      "id": "mvyef73wns4p",
+      "ref": "COT-2026-001",
+      "ownerId": "o1",
+      "month": "2026-11",
+      "amount": 500,
+      "dueDate": "2026-11-05",
+      "status": "paid",
+      "paidDate": "2026-11-01"
+    },
+    {
+      "id": "mvyef73x7bkj",
+      "ref": "COT-2026-002",
+      "ownerId": "o2",
+      "month": "2026-11",
+      "amount": 500,
+      "dueDate": "2026-11-05",
+      "status": "paid",
+      "paidDate": "2026-11-01"
+    },
+    {
+      "id": "mvyef73x1i8n",
+      "ref": "COT-2026-003",
+      "ownerId": "o3",
+      "month": "2026-11",
+      "amount": 600,
+      "dueDate": "2026-11-05",
+      "status": "paid",
+      "paidDate": "2026-11-01"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "e1",
+      "description": "Facture électricité parties communes",
+      "type": "Électricité",
+      "amount": 320,
+      "date": "2026-11-02"
+    },
+    {
+      "id": "e2",
+      "description": "Société de nettoyage",
+      "type": "Nettoyage",
+      "amount": 400,
+      "date": "2026-11-04"
+    },
+    {
+      "id": "e3",
+      "description": "Réparation ascenseur",
+      "type": "Entretien",
+      "amount": 750,
+      "date": "2026-11-06"
+    },
+    {
+      "id": "e_mvyek1ky_39onh",
+      "description": "mois 11",
+      "category": "undefined",
+      "amount": 250,
+      "date": "2026-11-01",
+      "note": ""
+    }
+  ]
+}
